@@ -1,0 +1,7 @@
+active,date,points_scored,plus_minus,team,location,opponent,outcome,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,personal_fouls,game_score
+True,2022-10-18,2,3,LOS ANGELES LAKERS,AWAY,GOLDEN STATE WARRIORS,LOSS,112,0,0,0,0,2,2,0,0,0,0,0,0,0,2.0
+True,2022-11-07,1,0,LOS ANGELES LAKERS,AWAY,UTAH JAZZ,LOSS,389,0,2,0,0,1,2,1,1,0,0,0,1,2,-1.6
+True,2022-12-19,4,-7,LOS ANGELES LAKERS,AWAY,PHOENIX SUNS,LOSS,870,1,5,1,2,1,2,1,1,1,1,1,1,1,2.5
+True,2023-01-06,0,1,LOS ANGELES LAKERS,HOME,ATLANTA HAWKS,WIN,77,0,1,0,1,0,0,0,0,0,0,0,0,0,-0.7
+True,2023-01-09,4,2,LOS ANGELES LAKERS,AWAY,DENVER NUGGETS,LOSS,136,2,2,0,0,0,1,0,0,0,1,0,0,0,4.0
+True,2023-01-24,3,0,LOS ANGELES LAKERS,HOME,LOS ANGELES CLIPPERS,LOSS,307,1,2,0,0,1,2,0,0,1,0,0,0,0,2.3

@@ -1,0 +1,8 @@
+active,date,points_scored,plus_minus,team,location,opponent,outcome,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,personal_fouls,game_score
+True,2023-03-07,0,-4,MILWAUKEE BUCKS,AWAY,ORLANDO MAGIC,WIN,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+True,2023-03-16,2,0,MILWAUKEE BUCKS,HOME,INDIANA PACERS,LOSS,133,1,3,0,1,0,0,0,0,0,0,0,0,0,0.3
+True,2023-03-22,2,11,MILWAUKEE BUCKS,HOME,SAN ANTONIO SPURS,WIN,372,1,2,0,1,0,0,0,0,0,0,0,1,0,0.0
+True,2023-03-24,4,-6,MILWAUKEE BUCKS,AWAY,UTAH JAZZ,WIN,485,1,4,0,2,2,2,0,1,1,0,0,1,1,1.2
+True,2023-03-27,0,-3,MILWAUKEE BUCKS,AWAY,DETROIT PISTONS,WIN,63,0,0,0,0,0,0,0,0,1,0,0,0,1,0.3
+True,2023-04-07,25,-27,MILWAUKEE BUCKS,HOME,MEMPHIS GRIZZLIES,LOSS,2462,10,20,4,10,1,1,0,5,11,0,1,5,3,18.7
+True,2023-04-09,17,-10,MILWAUKEE BUCKS,AWAY,TORONTO RAPTORS,LOSS,1641,5,8,2,4,5,6,0,1,1,0,1,5,2,8.9

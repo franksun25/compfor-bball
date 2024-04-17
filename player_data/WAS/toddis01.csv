@@ -1,0 +1,7 @@
+active,date,points_scored,plus_minus,team,location,opponent,outcome,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,personal_fouls,game_score
+True,2022-10-25,0,2,WASHINGTON WIZARDS,HOME,DETROIT PISTONS,WIN,154,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+True,2022-10-28,0,2,WASHINGTON WIZARDS,HOME,INDIANA PACERS,LOSS,61,0,1,0,1,0,0,0,0,0,0,0,0,0,-0.7
+True,2022-10-30,2,4,WASHINGTON WIZARDS,AWAY,BOSTON CELTICS,LOSS,313,1,2,0,1,0,0,0,0,0,0,0,0,0,1.0
+True,2022-11-28,0,-11,WASHINGTON WIZARDS,HOME,MINNESOTA TIMBERWOLVES,WIN,227,0,1,0,1,0,0,0,0,0,0,0,0,0,-0.7
+True,2023-04-05,0,2,WASHINGTON WIZARDS,AWAY,ATLANTA HAWKS,LOSS,203,0,1,0,0,0,0,0,0,0,0,0,1,0,-1.7
+True,2023-04-09,7,-6,WASHINGTON WIZARDS,HOME,HOUSTON ROCKETS,LOSS,2726,2,14,1,7,2,2,2,10,4,1,0,1,4,3.6

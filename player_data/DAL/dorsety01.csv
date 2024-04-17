@@ -1,0 +1,4 @@
+active,date,points_scored,plus_minus,team,location,opponent,outcome,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,personal_fouls,game_score
+True,2022-10-22,9,2,DALLAS MAVERICKS,HOME,MEMPHIS GRIZZLIES,WIN,257,4,4,1,1,0,0,1,1,0,0,0,0,0,8.8
+True,2022-12-14,0,4,DALLAS MAVERICKS,HOME,CLEVELAND CAVALIERS,LOSS,154,0,1,0,1,0,0,0,0,0,0,0,0,0,-0.7
+True,2022-12-25,0,-4,DALLAS MAVERICKS,HOME,LOS ANGELES LAKERS,WIN,84,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0

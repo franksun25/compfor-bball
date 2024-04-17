@@ -1,0 +1,5 @@
+active,date,points_scored,plus_minus,team,location,opponent,outcome,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,personal_fouls,game_score
+True,2023-03-25,0,1,LOS ANGELES CLIPPERS,HOME,NEW ORLEANS PELICANS,LOSS,406,0,2,0,0,0,0,0,1,2,0,0,0,1,-0.1
+True,2023-03-27,0,-4,LOS ANGELES CLIPPERS,HOME,CHICAGO BULLS,WIN,107,0,0,0,0,0,0,0,1,0,0,0,0,0,0.3
+True,2023-03-31,5,0,LOS ANGELES CLIPPERS,AWAY,MEMPHIS GRIZZLIES,LOSS,560,2,6,1,3,0,0,0,1,3,0,0,1,0,3.0
+True,2023-04-08,2,-2,LOS ANGELES CLIPPERS,HOME,PORTLAND TRAIL BLAZERS,WIN,101,1,1,0,0,0,0,0,0,0,0,0,0,1,1.3

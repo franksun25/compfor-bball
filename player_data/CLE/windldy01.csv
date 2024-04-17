@@ -1,0 +1,4 @@
+active,date,points_scored,plus_minus,team,location,opponent,outcome,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,personal_fouls,game_score
+True,2023-03-14,2,-5,CLEVELAND CAVALIERS,AWAY,CHARLOTTE HORNETS,WIN,247,1,2,0,1,0,0,0,0,1,1,0,1,0,1.7
+True,2023-03-17,3,3,CLEVELAND CAVALIERS,HOME,WASHINGTON WIZARDS,WIN,235,1,1,1,1,0,0,0,0,0,0,0,0,0,2.7
+True,2023-03-26,0,1,CLEVELAND CAVALIERS,HOME,HOUSTON ROCKETS,WIN,141,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0

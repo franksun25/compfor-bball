@@ -1,0 +1,5 @@
+active,date,points_scored,plus_minus,team,location,opponent,outcome,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,personal_fouls,game_score
+True,2023-02-06,2,-2,HOUSTON ROCKETS,HOME,SACRAMENTO KINGS,LOSS,147,1,1,0,0,0,0,1,1,1,0,0,0,0,3.4
+True,2023-02-13,6,4,HOUSTON ROCKETS,AWAY,PHILADELPHIA 76ERS,LOSS,211,2,3,2,3,0,0,0,1,0,0,0,0,0,5.0
+True,2023-02-15,7,-3,HOUSTON ROCKETS,AWAY,OKLAHOMA CITY THUNDER,LOSS,1040,2,7,1,6,2,2,0,3,0,0,1,0,2,3.7
+True,2023-02-24,0,2,HOUSTON ROCKETS,AWAY,GOLDEN STATE WARRIORS,LOSS,101,0,1,0,1,0,0,0,0,0,0,0,0,0,-0.7

@@ -1,0 +1,10 @@
+active,date,points_scored,plus_minus,team,location,opponent,outcome,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,personal_fouls,game_score
+True,2023-01-19,9,10,TORONTO RAPTORS,AWAY,MINNESOTA TIMBERWOLVES,LOSS,694,3,4,3,3,0,0,0,0,1,0,0,1,0,7.1
+True,2023-01-22,0,-7,TORONTO RAPTORS,HOME,NEW YORK KNICKS,WIN,330,0,1,0,1,0,0,0,0,0,0,0,0,0,-0.7
+True,2023-02-26,0,-5,TORONTO RAPTORS,AWAY,CLEVELAND CAVALIERS,LOSS,402,0,3,0,3,0,0,0,2,0,0,0,0,1,-1.9
+True,2023-03-16,0,-1,TORONTO RAPTORS,HOME,OKLAHOMA CITY THUNDER,WIN,172,0,0,0,0,0,0,0,0,0,0,0,0,1,-0.4
+True,2023-03-18,0,-4,TORONTO RAPTORS,HOME,MINNESOTA TIMBERWOLVES,WIN,181,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+True,2023-04-02,0,2,TORONTO RAPTORS,AWAY,CHARLOTTE HORNETS,WIN,98,0,0,0,0,0,0,0,1,0,0,0,0,0,0.3
+True,2023-04-04,0,3,TORONTO RAPTORS,AWAY,CHARLOTTE HORNETS,WIN,125,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+True,2023-04-07,0,5,TORONTO RAPTORS,AWAY,BOSTON CELTICS,LOSS,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+True,2023-04-09,0,-1,TORONTO RAPTORS,HOME,MILWAUKEE BUCKS,WIN,921,0,6,0,5,0,0,0,1,2,0,0,0,1,-2.9

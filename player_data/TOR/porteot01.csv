@@ -1,0 +1,9 @@
+active,date,points_scored,plus_minus,team,location,opponent,outcome,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,personal_fouls,game_score
+True,2022-11-02,5,9,TORONTO RAPTORS,AWAY,SAN ANTONIO SPURS,WIN,631,1,2,1,2,2,2,0,3,0,2,0,0,0,6.9
+True,2022-11-04,6,7,TORONTO RAPTORS,AWAY,DALLAS MAVERICKS,LOSS,1233,2,3,2,3,0,0,0,0,0,2,0,0,1,6.3
+True,2022-11-06,2,-4,TORONTO RAPTORS,HOME,CHICAGO BULLS,WIN,1127,1,3,0,1,0,0,1,2,3,3,0,0,2,5.9
+True,2022-11-07,5,-14,TORONTO RAPTORS,AWAY,CHICAGO BULLS,LOSS,1033,2,4,0,1,1,1,0,0,1,0,0,0,0,3.7
+True,2022-11-09,14,3,TORONTO RAPTORS,HOME,HOUSTON ROCKETS,WIN,1408,5,8,2,5,2,2,3,3,0,1,0,2,1,12.0
+True,2022-11-11,6,-12,TORONTO RAPTORS,AWAY,OKLAHOMA CITY THUNDER,LOSS,1033,2,5,1,3,1,1,0,1,1,1,0,0,2,4.5
+True,2022-11-12,6,-13,TORONTO RAPTORS,AWAY,INDIANA PACERS,LOSS,1592,2,3,0,1,2,2,2,3,3,2,0,1,1,9.7
+True,2022-11-14,0,3,TORONTO RAPTORS,AWAY,DETROIT PISTONS,WIN,723,0,2,0,1,0,0,0,1,0,0,0,1,0,-2.1

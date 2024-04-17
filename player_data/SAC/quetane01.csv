@@ -1,0 +1,6 @@
+active,date,points_scored,plus_minus,team,location,opponent,outcome,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,personal_fouls,game_score
+True,2022-12-13,0,-6,SACRAMENTO KINGS,AWAY,PHILADELPHIA 76ERS,LOSS,142,0,0,0,0,0,0,1,0,1,0,0,0,3,0.2
+True,2022-12-19,2,-12,SACRAMENTO KINGS,HOME,CHARLOTTE HORNETS,LOSS,436,1,3,0,0,0,0,2,2,0,0,1,1,0,2.0
+True,2022-12-21,10,-6,SACRAMENTO KINGS,HOME,LOS ANGELES LAKERS,WIN,639,5,5,0,0,0,2,1,2,0,0,0,0,3,7.8
+True,2022-12-23,0,-7,SACRAMENTO KINGS,HOME,WASHINGTON WIZARDS,LOSS,253,0,0,0,0,0,0,0,1,0,0,0,0,1,-0.1
+True,2023-04-09,0,1,SACRAMENTO KINGS,AWAY,DENVER NUGGETS,LOSS,251,0,1,0,0,0,0,1,1,0,0,1,0,0,1.0

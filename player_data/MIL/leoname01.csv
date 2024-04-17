@@ -1,0 +1,10 @@
+active,date,points_scored,plus_minus,team,location,opponent,outcome,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,personal_fouls,game_score
+True,2023-02-24,5,0,MILWAUKEE BUCKS,HOME,MIAMI HEAT,WIN,893,1,3,1,2,2,2,2,4,0,1,0,1,3,4.7
+True,2023-02-26,3,5,MILWAUKEE BUCKS,HOME,PHOENIX SUNS,WIN,317,1,2,1,2,0,0,0,0,0,0,0,0,0,2.0
+True,2023-02-28,3,2,MILWAUKEE BUCKS,AWAY,BROOKLYN NETS,WIN,127,1,2,1,2,0,0,0,1,0,0,0,0,1,1.9
+True,2023-03-01,0,-1,MILWAUKEE BUCKS,HOME,ORLANDO MAGIC,WIN,273,0,1,0,1,0,0,0,1,0,0,0,0,0,-0.4
+True,2023-03-07,3,-6,MILWAUKEE BUCKS,AWAY,ORLANDO MAGIC,WIN,456,1,2,1,2,0,0,0,2,0,0,0,1,2,0.8
+True,2023-03-16,10,-4,MILWAUKEE BUCKS,HOME,INDIANA PACERS,LOSS,979,4,4,1,1,1,2,0,3,0,0,0,0,1,8.9
+True,2023-04-05,0,-9,MILWAUKEE BUCKS,HOME,CHICAGO BULLS,WIN,391,0,2,0,1,0,0,2,0,0,0,0,0,2,-0.8
+True,2023-04-07,9,-4,MILWAUKEE BUCKS,HOME,MEMPHIS GRIZZLIES,LOSS,1553,3,9,1,5,2,2,3,4,0,0,0,3,4,2.6
+True,2023-04-09,10,-10,MILWAUKEE BUCKS,AWAY,TORONTO RAPTORS,LOSS,1835,3,4,1,2,3,3,5,7,1,1,0,1,3,13.5

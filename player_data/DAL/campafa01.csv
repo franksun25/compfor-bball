@@ -1,0 +1,9 @@
+active,date,points_scored,plus_minus,team,location,opponent,outcome,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,personal_fouls,game_score
+True,2022-10-25,3,0,DALLAS MAVERICKS,AWAY,NEW ORLEANS PELICANS,LOSS,777,1,4,1,3,0,0,0,0,2,2,0,0,0,4.0
+True,2022-10-27,0,2,DALLAS MAVERICKS,AWAY,BROOKLYN NETS,WIN,167,0,0,0,0,0,0,0,0,1,1,0,0,1,1.3
+True,2022-11-10,0,0,DALLAS MAVERICKS,AWAY,WASHINGTON WIZARDS,LOSS,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+True,2022-11-16,3,5,DALLAS MAVERICKS,HOME,HOUSTON ROCKETS,LOSS,1355,1,7,1,6,0,0,0,2,5,3,0,3,1,2.2
+True,2022-11-18,0,-1,DALLAS MAVERICKS,HOME,DENVER NUGGETS,WIN,262,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+True,2022-11-23,1,2,DALLAS MAVERICKS,AWAY,BOSTON CELTICS,LOSS,105,0,0,0,0,1,2,0,0,0,0,0,0,0,0.6
+True,2022-11-26,0,-2,DALLAS MAVERICKS,AWAY,TORONTO RAPTORS,LOSS,247,0,1,0,1,0,0,0,0,1,0,0,0,1,-0.4
+True,2022-11-27,3,5,DALLAS MAVERICKS,AWAY,MILWAUKEE BUCKS,LOSS,206,1,1,1,1,0,0,0,0,0,0,0,0,0,2.7

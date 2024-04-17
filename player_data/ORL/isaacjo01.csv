@@ -1,0 +1,12 @@
+active,date,points_scored,plus_minus,team,location,opponent,outcome,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,personal_fouls,game_score
+True,2023-01-23,10,7,ORLANDO MAGIC,HOME,BOSTON CELTICS,WIN,576,4,7,2,3,0,2,1,2,1,2,0,0,0,9.9
+True,2023-01-25,5,2,ORLANDO MAGIC,HOME,INDIANA PACERS,WIN,503,2,4,1,2,0,0,0,1,2,2,0,0,1,6.3
+True,2023-01-28,5,-1,ORLANDO MAGIC,HOME,CHICAGO BULLS,LOSS,523,2,7,1,4,0,0,1,3,0,1,0,0,1,3.1
+True,2023-01-30,2,1,ORLANDO MAGIC,AWAY,PHILADELPHIA 76ERS,WIN,587,1,2,0,0,0,0,1,2,0,1,0,0,0,3.3
+True,2023-02-03,9,-9,ORLANDO MAGIC,AWAY,MINNESOTA TIMBERWOLVES,WIN,593,4,5,0,0,1,1,1,2,0,1,0,0,1,9.0
+True,2023-02-05,6,-11,ORLANDO MAGIC,AWAY,CHARLOTTE HORNETS,WIN,662,3,7,0,1,0,0,4,3,0,0,1,0,0,6.7
+True,2023-02-07,2,-7,ORLANDO MAGIC,HOME,NEW YORK KNICKS,LOSS,717,1,5,0,2,0,0,2,3,1,0,1,0,0,2.6
+True,2023-02-09,3,5,ORLANDO MAGIC,HOME,DENVER NUGGETS,WIN,660,0,3,0,0,3,4,1,2,1,3,1,0,0,6.2
+True,2023-02-11,3,5,ORLANDO MAGIC,HOME,MIAMI HEAT,LOSS,855,1,3,0,0,1,2,1,3,0,1,0,1,0,2.5
+True,2023-02-13,0,-4,ORLANDO MAGIC,AWAY,CHICAGO BULLS,WIN,777,0,4,0,0,0,0,2,2,0,1,0,1,1,-1.2
+True,2023-02-23,10,-7,ORLANDO MAGIC,HOME,DETROIT PISTONS,WIN,988,4,6,2,3,0,0,1,6,1,2,1,2,1,10.9

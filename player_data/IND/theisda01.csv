@@ -1,0 +1,8 @@
+active,date,points_scored,plus_minus,team,location,opponent,outcome,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,personal_fouls,game_score
+True,2023-02-02,0,-12,INDIANA PACERS,HOME,LOS ANGELES LAKERS,LOSS,434,0,2,0,1,0,0,0,0,0,0,0,0,1,-1.8
+True,2023-02-03,8,12,INDIANA PACERS,HOME,SACRAMENTO KINGS,WIN,918,3,4,1,2,1,2,0,4,1,0,0,2,2,5.1
+True,2023-02-05,7,-4,INDIANA PACERS,HOME,CLEVELAND CAVALIERS,LOSS,915,3,6,0,1,1,2,1,1,1,0,2,0,1,6.3
+True,2023-02-08,9,-3,INDIANA PACERS,AWAY,MIAMI HEAT,LOSS,1085,4,7,0,0,1,2,0,4,0,0,0,0,0,6.5
+True,2023-02-10,6,6,INDIANA PACERS,HOME,PHOENIX SUNS,LOSS,894,3,5,0,1,0,2,0,2,1,0,1,0,0,4.9
+True,2023-02-13,11,-5,INDIANA PACERS,HOME,UTAH JAZZ,LOSS,1317,5,13,0,3,1,2,3,2,3,1,1,0,2,9.2
+True,2023-02-23,8,-13,INDIANA PACERS,HOME,BOSTON CELTICS,LOSS,966,3,7,1,3,1,2,3,2,3,1,2,1,1,9.7

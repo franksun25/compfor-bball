@@ -1,0 +1,6 @@
+active,date,points_scored,plus_minus,team,location,opponent,outcome,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,personal_fouls,game_score
+True,2022-10-24,0,0,CHICAGO BULLS,HOME,BOSTON CELTICS,WIN,16,0,0,0,0,0,0,0,1,0,0,0,0,0,0.3
+True,2022-10-26,0,-2,CHICAGO BULLS,HOME,INDIANA PACERS,WIN,39,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+True,2022-11-07,0,0,CHICAGO BULLS,HOME,TORONTO RAPTORS,WIN,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+True,2023-01-19,0,-2,CHICAGO BULLS,AWAY,DETROIT PISTONS,WIN,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+True,2023-02-16,5,13,CHICAGO BULLS,HOME,MILWAUKEE BUCKS,LOSS,413,2,4,1,3,0,0,0,2,0,0,0,0,1,3.2

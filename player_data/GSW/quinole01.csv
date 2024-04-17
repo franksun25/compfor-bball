@@ -1,0 +1,5 @@
+active,date,points_scored,plus_minus,team,location,opponent,outcome,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,personal_fouls,game_score
+True,2023-03-31,0,-1,GOLDEN STATE WARRIORS,HOME,SAN ANTONIO SPURS,WIN,88,0,2,0,1,0,0,0,1,0,0,0,0,0,-1.1
+True,2023-04-04,1,-2,GOLDEN STATE WARRIORS,HOME,OKLAHOMA CITY THUNDER,WIN,96,0,0,0,0,1,2,0,0,0,0,0,2,0,-1.4
+True,2023-04-07,0,-2,GOLDEN STATE WARRIORS,AWAY,SACRAMENTO KINGS,WIN,262,0,1,0,1,0,0,0,1,1,0,0,2,0,-1.7
+True,2023-04-09,9,11,GOLDEN STATE WARRIORS,AWAY,PORTLAND TRAIL BLAZERS,WIN,641,2,2,2,2,3,4,1,0,1,1,0,1,0,9.4

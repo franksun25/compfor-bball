@@ -1,0 +1,10 @@
+active,date,points_scored,plus_minus,team,location,opponent,outcome,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,personal_fouls,game_score
+True,2023-03-11,0,3,MIAMI HEAT,AWAY,ORLANDO MAGIC,LOSS,433,0,1,0,0,0,0,1,0,0,0,0,0,1,-0.4
+True,2023-03-13,2,-1,MIAMI HEAT,HOME,UTAH JAZZ,WIN,664,1,2,0,0,0,0,1,3,0,0,0,0,2,1.8
+True,2023-03-15,5,-8,MIAMI HEAT,HOME,MEMPHIS GRIZZLIES,WIN,415,2,3,0,0,1,2,0,0,0,0,1,0,3,2.8
+True,2023-03-18,0,-5,MIAMI HEAT,AWAY,CHICAGO BULLS,LOSS,293,0,1,0,1,0,0,1,1,0,1,0,1,0,0.3
+True,2023-03-19,2,-3,MIAMI HEAT,AWAY,DETROIT PISTONS,WIN,222,1,1,0,0,0,0,1,0,0,0,0,0,0,2.4
+True,2023-03-25,3,-2,MIAMI HEAT,HOME,BROOKLYN NETS,LOSS,210,1,1,0,0,1,1,0,1,0,0,0,0,0,3.0
+True,2023-04-06,4,-1,MIAMI HEAT,AWAY,PHILADELPHIA 76ERS,WIN,285,2,2,0,0,0,0,0,1,0,0,0,1,1,2.3
+True,2023-04-07,10,16,MIAMI HEAT,AWAY,WASHINGTON WIZARDS,LOSS,1032,4,7,2,3,0,0,2,4,2,0,0,1,5,7.7
+True,2023-04-09,14,11,MIAMI HEAT,HOME,ORLANDO MAGIC,WIN,1440,5,9,1,3,3,3,2,5,0,1,1,1,4,11.7

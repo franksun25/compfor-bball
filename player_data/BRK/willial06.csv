@@ -1,0 +1,2 @@
+active,date,points_scored,plus_minus,team,location,opponent,outcome,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,personal_fouls,game_score
+True,2022-12-10,0,-5,BROOKLYN NETS,AWAY,INDIANA PACERS,WIN,316,0,0,0,0,0,0,0,1,0,0,0,2,1,-2.1

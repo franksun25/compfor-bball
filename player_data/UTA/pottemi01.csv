@@ -1,0 +1,8 @@
+active,date,points_scored,plus_minus,team,location,opponent,outcome,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,personal_fouls,game_score
+True,2022-10-28,4,9,UTAH JAZZ,AWAY,DENVER NUGGETS,LOSS,509,2,2,0,0,0,0,1,2,1,0,0,0,1,5.0
+True,2022-10-31,0,-1,UTAH JAZZ,HOME,MEMPHIS GRIZZLIES,WIN,197,0,0,0,0,0,0,0,0,0,0,0,0,1,-0.4
+True,2022-12-20,0,-6,UTAH JAZZ,AWAY,DETROIT PISTONS,WIN,159,0,0,0,0,0,0,0,0,1,0,0,0,0,0.7
+True,2023-03-24,7,3,UTAH JAZZ,HOME,MILWAUKEE BUCKS,LOSS,596,3,5,1,2,0,0,0,0,1,0,0,0,1,5.0
+True,2023-03-29,3,-1,UTAH JAZZ,AWAY,SAN ANTONIO SPURS,WIN,154,1,1,1,1,0,0,0,0,0,0,0,1,0,1.7
+True,2023-04-06,0,2,UTAH JAZZ,HOME,OKLAHOMA CITY THUNDER,LOSS,265,0,0,0,0,0,0,0,3,0,0,0,0,0,0.9
+True,2023-04-08,10,-9,UTAH JAZZ,HOME,DENVER NUGGETS,WIN,1266,4,7,2,4,0,0,2,8,1,1,0,1,2,10.4

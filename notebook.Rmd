@@ -1,0 +1,201 @@
+# Frank Sun final project
+
+First, load all data in object
+
+```{r}
+source("process_teams.R")
+nba_data <- all_teams_data()
+
+```
+
+```{r}
+nba_data_1 <- nba_data %>% 
+  mutate_at(vars(-name), as.numeric)
+  
+
+```
+
+The data has already been processed, each row is a player, with a metric (my ESPN league's fantasy score) calculated and accumulated over a season.
+
+Here's a visual:
+
+```{r}
+source("plot.R")
+
+plot <- plot_nba(nba_data_1)
+plot
+
+```
+
+As you can see, most player are concentrated towards the bottom. More work can be done to uncover interesting trends. To start with, given what is already plotted, it can be straightforward to highlight the top n performers, in this case 20.
+
+```{r}
+library(plotly)
+
+pivoted_nba <- pivot_nba(nba_data_1) %>% 
+  arrange(desc(cumscore)) %>% 
+  distinct(name, .keep_all = TRUE) %>% 
+  head(20) %>% 
+  print()
+
+plot2 <- pivot_nba(nba_data) %>%
+    filter(name %in% pivoted_nba$name) %>% 
+    ggplot(aes(x = date, y = cumscore, color = name, group = name)) +
+    geom_line() +
+    theme_minimal() +
+    theme(legend.position = "none") +
+    labs(title = "Top 20 scorers", x = "Date", y = "Cumulative Score")
+
+ggplotly(plot2, tooltip = c("y", "group"))
+```
+
+It is now clear that the highest line we saw previously belonged to Nikola Jokic. Many of the NBA's top performers are here, although context is needed to determine what their names actually are. To match the "usernames" to the real names is another layer of work needed, back in the collection process. Names that might be interesting here are the second to the top purple line (Domantas Sabonis), Nic Claxton who came somewhat out of nowhere in 22-23 season.
+
+```{r}
+games_played_data <- all_games_player()
+nba_data_3 <- pivot_nba(nba_data) %>% 
+  filter(date == "2023-04-09" | date == "2023-02-16") %>% 
+  group_by(name) %>% 
+  summarise(total_score = max(cumscore), post_asg_score = max(cumscore) - min(cumscore))
+
+nba_data_4 <- full_join(nba_data_3, games_played_data) %>% 
+  mutate(avg_score = total_score / games_played, post_asg_avg = post_asg_score / after_all_star)
+
+```
+
+```{r}
+top_pg_scorers <- nba_data_4 %>% 
+  arrange(desc(avg_score)) %>% 
+  head(20) %>% 
+  select(name, avg_score)
+top_pg_scorers
+
+plot3 <- pivot_nba(nba_data) %>%
+    filter(name %in% top_pg_scorers$name) %>% 
+    ggplot(aes(x = date, y = cumscore, color = name, group = name)) +
+    geom_line() +
+    theme_minimal() +
+    theme(legend.position = "none") +
+    labs(title = "Top 20 per-game scorers", x = "Date", y = "Cumulative Score")
+
+ggplotly(plot3, tooltip = c("y", "group"))
+
+```
+
+Stand out names that appear here that weren't in the previous graph include most obviously Zion Williamson, as well as names like Lillard, Leonard, and Durant. This lines up with the most common reason players are very talented and perform well, but don't accrue total stats and burn draftees (long term injuries).
+
+```{r}
+top_pg_scorers_asg <- nba_data_4 %>% 
+  arrange(desc(post_asg_score)) %>% 
+  head(20) %>% 
+  select(name, post_asg_score)
+top_pg_scorers_asg
+
+plot4 <- pivot_nba(nba_data) %>%
+    filter(name %in% top_pg_scorers_asg$name) %>% 
+    ggplot(aes(x = date, y = cumscore, color = name, group = name)) +
+    geom_line() +
+    theme_minimal() +
+    theme(legend.position = "none") +
+    labs(title = "Top 20 scorers after the all star break", x = "Date", y = "Cumulative Score")
+
+ggplotly(plot4, tooltip = c("y", "group"))
+
+```
+
+We sometimes have a notion of "playoff winners", here we look at players who saved the best for last. Jokic still dominates, but new names include Mikal Bridges, whose mid-season trade to the Nets unlocked a new facet to his game, and Brandon Ingram, who shook off extensive injuries early in the season to finish strongly after the all star break.
+
+```{r}
+top_risers <- nba_data_4 %>% 
+  arrange(desc(post_asg_avg - avg_score)) %>% 
+  head(20) %>% 
+  select(name, avg_score, post_asg_avg)
+top_risers
+
+plot5 <- pivot_nba(nba_data) %>%
+    filter(name %in% top_risers$name) %>% 
+    ggplot(aes(x = date, y = cumscore, color = name, group = name)) +
+    geom_line() +
+    theme_minimal() +
+    theme(legend.position = "none") +
+    labs(title = "Top 20 most improved after the all star break", x = "Date", y = "Cumulative Score")
+
+ggplotly(plot5, tooltip = c("y", "group"))
+
+```
+
+Players who made improvements after the all star break include players who went from 0 to something simply because their team started to tank towards the end of the season. More interesting are names like Kessler, Jalen Williams, and Zach Collins, who made big strides, due to general improvement or new team situation.
+
+```{r}
+nba_data_5 <- all_teams_data(TRUE) # Modified to represent categorical
+plot_nba(nba_data_5 %>% mutate_at(vars(-name), as.numeric))
+
+
+```
+
+A (somewhat crude) attempt to represent categorical value. No prizes for guessing who comes in first.
+
+```{r}
+nba_data_6 <- nba_data_5 %>% 
+  mutate_at(vars(-name), as.numeric)
+
+pivoted_nba_1 <- pivot_nba(nba_data_6) %>% 
+  arrange(desc(cumscore)) %>% 
+  distinct(name, .keep_all = TRUE) %>% 
+  head(20) %>% 
+  print()
+
+plot6 <- pivot_nba(nba_data_6) %>%
+    filter(name %in% pivoted_nba_1$name) %>% 
+    ggplot(aes(x = date, y = cumscore, color = name, group = name)) +
+    geom_line() +
+    theme_minimal() +
+    theme(legend.position = "none") +
+    labs(title = "Top 20 category performers", x = "Date", y = "Cumulative Score")
+
+ggplotly(plot6, tooltip = c("y", "group"))
+
+
+```
+
+Names that jump into the top 20 that couldn't before include Irving, Curry, VanVleet, and Lillard (who previously missed too many games). This tracks with what we know about the difference in these scoring systems.
+
+```{r}
+pivoted_nba_2 <- pivot_nba(nba_data_6) %>% 
+  arrange(cumscore) %>% 
+  distinct(name, .keep_all = TRUE) %>% 
+  head(20) %>% 
+  print()
+
+plot7 <- pivot_nba(nba_data_6) %>%
+    filter(name %in% pivoted_nba_2$name) %>% 
+    ggplot(aes(x = date, y = cumscore, color = name, group = name)) +
+    geom_line() +
+    theme_minimal() +
+    theme(legend.position = "none") +
+    labs(title = "Bottom 20 category performers", x = "Date", y = "Cumulative Score")
+
+ggplotly(plot7, tooltip = c("y", "group"))
+
+```
+
+The bottom category performers are more interesting than bottom points performers because these players actually play. These names are familiar to fans, possibly for reasons that aren't so nice.
+
+```{r}
+search_and_plot <- function(list) {
+  plot3 <- pivot_nba(nba_data) %>%
+    filter(name %in% list) %>% 
+    ggplot(aes(x = date, y = cumscore, color = name, group = name)) +
+    geom_line() +
+    theme_classic() +
+    theme(legend.position = "none") +
+    labs(title = "Searched Players", x = "Date", y = "Cumulative Score")
+
+  ggplotly(plot3, tooltip = c("y", "group"))
+}
+
+search_and_plot(c("youngtr01", "willizi01", "bridgmi01", "poolejo01", "willija06"))
+
+```
+
+The last component is for the user to input the names themselves, which unfortunately requires them to know what their bball ref name is. Luckily, it follows a straightforward formula: first five letters of last name, plus first two letters of first name, plus identifying number. If your letter combination is unique in nba history, that number is probably 01.

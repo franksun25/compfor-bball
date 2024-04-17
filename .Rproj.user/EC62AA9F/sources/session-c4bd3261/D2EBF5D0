@@ -1,0 +1,24 @@
+{
+    "id": "D2EBF5D0",
+    "path": "/cloud/project/get_data.py",
+    "project_path": "get_data.py",
+    "type": "python",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1712812649420.0,
+    "source_on_save": false,
+    "relative_order": 6,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1712812632,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1712812632,
+    "read_only": false,
+    "read_only_alternatives": []
+}

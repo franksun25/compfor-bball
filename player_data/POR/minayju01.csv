@@ -1,0 +1,5 @@
+active,date,points_scored,plus_minus,team,location,opponent,outcome,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,personal_fouls,game_score
+True,2023-04-04,8,4,PORTLAND TRAIL BLAZERS,AWAY,MEMPHIS GRIZZLIES,LOSS,1031,3,6,2,5,0,0,2,2,2,0,0,1,3,6.2
+True,2023-04-06,7,9,PORTLAND TRAIL BLAZERS,AWAY,SAN ANTONIO SPURS,LOSS,1664,3,8,1,3,0,0,1,2,1,1,3,1,2,5.9
+True,2023-04-08,0,-2,PORTLAND TRAIL BLAZERS,AWAY,LOS ANGELES CLIPPERS,LOSS,1209,0,1,0,1,0,0,0,4,0,1,1,1,3,0.0
+True,2023-04-09,2,-31,PORTLAND TRAIL BLAZERS,HOME,GOLDEN STATE WARRIORS,LOSS,1427,1,8,0,3,0,1,0,4,1,0,1,1,1,-2.4

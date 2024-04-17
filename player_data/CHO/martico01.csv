@@ -1,0 +1,8 @@
+active,date,points_scored,plus_minus,team,location,opponent,outcome,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,personal_fouls,game_score
+True,2022-10-19,0,-6,CHARLOTTE HORNETS,AWAY,SAN ANTONIO SPURS,WIN,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+True,2023-01-04,4,-11,CHARLOTTE HORNETS,HOME,MEMPHIS GRIZZLIES,LOSS,1261,2,7,0,2,0,0,2,2,2,1,0,1,1,2.9
+True,2023-01-06,4,10,CHARLOTTE HORNETS,AWAY,MILWAUKEE BUCKS,WIN,1302,2,7,0,4,0,2,1,3,3,0,0,0,0,2.8
+True,2023-01-08,3,2,CHARLOTTE HORNETS,AWAY,INDIANA PACERS,LOSS,1540,1,6,1,2,0,0,1,5,1,1,1,0,0,3.8
+True,2023-01-10,7,-2,CHARLOTTE HORNETS,AWAY,TORONTO RAPTORS,LOSS,1299,3,7,1,4,0,0,0,3,2,1,0,0,4,5.0
+True,2023-01-12,9,-12,CHARLOTTE HORNETS,AWAY,TORONTO RAPTORS,LOSS,1307,3,4,1,2,2,3,1,1,3,1,0,1,4,8.5
+True,2023-01-14,8,-7,CHARLOTTE HORNETS,HOME,BOSTON CELTICS,LOSS,1258,3,5,0,0,2,2,3,2,0,0,0,0,4,6.8

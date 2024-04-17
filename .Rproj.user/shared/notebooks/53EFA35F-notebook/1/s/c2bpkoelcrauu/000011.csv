@@ -1,0 +1,4 @@
+"0","nba_data <- all_teams_data()"
+"2","Error in `$<-.data.frame`(`*tmp*`, ""name"", value = ""thomptr01"") : 
+  replacement has 1 row, data has 0
+"

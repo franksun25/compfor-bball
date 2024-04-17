@@ -1,0 +1,5 @@
+active,date,points_scored,plus_minus,team,location,opponent,outcome,seconds_played,made_field_goals,attempted_field_goals,made_three_point_field_goals,attempted_three_point_field_goals,made_free_throws,attempted_free_throws,offensive_rebounds,defensive_rebounds,assists,steals,blocks,turnovers,personal_fouls,game_score
+True,2022-11-28,2,-2,BOSTON CELTICS,HOME,CHARLOTTE HORNETS,WIN,498,1,2,0,1,0,0,3,1,0,0,0,0,1,3.0
+True,2023-01-23,0,0,BOSTON CELTICS,AWAY,ORLANDO MAGIC,LOSS,342,0,0,0,0,0,0,0,1,0,0,0,1,2,-1.5
+True,2023-04-07,0,-5,BOSTON CELTICS,HOME,TORONTO RAPTORS,WIN,212,0,1,0,0,0,0,0,1,0,0,0,0,0,-0.4
+True,2023-04-09,4,2,BOSTON CELTICS,HOME,ATLANTA HAWKS,WIN,1134,1,4,0,2,2,2,2,2,0,2,0,0,0,5.6
